@@ -1,0 +1,55 @@
+{
+  "packages": [
+    {
+      "name": "zepsch",
+      "maintainer": "Zepsch",
+      "websiteURL": "https://zepsch.com/",
+      "email": "pocketstar@zepsch.de",
+      "help": {
+        "online": "https://zepsch.com/"
+      },
+      "platforms": [
+        {
+          "name": "PocketStar Boards",
+          "architecture": "samd",
+          "version": "0.2.9",
+          "category": "Contributed",
+          "help": {
+            "online": "https://zepsch.com/"
+          },
+          "url": "http://files.zepsch.com/pocketstar/zepsch-0.2.9.zip",
+          "archiveFileName": "zepsch-0.2.9.zip",
+          "checksum": "SHA-256:D82802583DFDFDC3DC904881BEF8F3164F4D1A3E5052F62678A661F453B59818",
+          "size": "3911895",
+          "boards": [
+            {"name": "PocketStar"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    }
+  ]
+}
